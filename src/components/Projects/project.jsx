@@ -1,8 +1,8 @@
-import styles from "./projects.module.css";
+import styles from "./project.module.css";
 
 import CardProjects from "../CardsProjects/cardProjects";
 
-import projects from "./projects";
+import projects from "./project";
 
 export default function Projects() {
   return (

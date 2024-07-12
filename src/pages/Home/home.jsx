@@ -6,9 +6,9 @@ import Perfil from "../../assets/img/Perfil.jpeg";
 
 import Header from "../../components/Header/header.jsx";
 import AboutMe from "../../components/AboutMe/aboutMe.jsx";
-// import Experiencies from "../../components/Experiences/experiences.jsx";
+import Experiencies from "../../components/Experiences/experiences.jsx";
 import Footer from "../../components/Footer/footer";
-// import Projects from "../../components/Projects/projects.jsx";
+import Projects from "../../components/Projects/project.jsx";
 import ButtonScrolling from "../../components/ButtonScrolling/ButtonScrolling.jsx";
 
 export default function home() {
@@ -50,8 +50,8 @@ export default function home() {
         </div>
       </section>
       <AboutMe />
-      {/* <Experiences /> */}
-      {/* <Projects /> */}
+      <Experiencies />
+      <Projects />
       <Footer />
       <ButtonScrolling />
     </>

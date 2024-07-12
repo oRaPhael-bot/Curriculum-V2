@@ -1,13 +1,13 @@
-import imgTest from '../../assets/images/Img-theme.png'
+import imgTest from '../../assets/img/Img-theme.png'
 
 const projects = [
   {
     imagem: imgTest,
     name: "Portfolio-V2",
-    description: "Um portifolio que trabalha principalmente com compenentização e rotas no React. ",
+    description: "Um portfólio que trabalha principalmente com componentização e rotas no React. ",
     technologies: "React - Bootstrap - Vite",
-    linkProject: 'https://github.com/CarlosEduardoSD/Portifolio-V2',
-    linkRepository: 'https://github.com/CarlosEduardoSD/Portifolio-V2'
+    linkProject: 'https://github.com/oRaPhael-bot/Curriculum-V2/tree/main',
+    linkRepository: 'https://github.com/oRaPhael-bot/Curriculum-V2/tree/main'
   },
   {
     imagem: imgTest,
@@ -20,7 +20,7 @@ const projects = [
   {
     imagem: imgTest,
     name: "Portifolio-V1",
-    description: "Um portifolio simples, para treinar o uso de tags, estilos, classes, paginação e linkagem. ",
+    description: "Um portfólio simples, para treinar o uso de tags, estilos, classes, paginação e linkagem. ",
     technologies: "Html - CSS",
     linkProject: 'https://github.com/CarlosEduardoSD/Portifolio-V1',
     linkRepository: 'https://github.com/CarlosEduardoSD/Portifolio-V1'

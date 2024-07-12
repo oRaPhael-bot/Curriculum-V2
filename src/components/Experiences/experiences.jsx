@@ -15,7 +15,7 @@ export default function Experiencies() {
       >
         <div className="row" style={{ marginBottom: "30px" }}>
           <div className="col-md-12">
-            <h1 className={styles.title_section}>Experiência</h1>
+            <h1 className={styles.title_section}>Experiência</h1>
           </div>
         </div>
         <div className="row">
@@ -39,7 +39,7 @@ export default function Experiencies() {
             </div>
           </div>
           <div className="col-md-9">
-            <div className={styles.experience_content}>
+            <div className={styles.experiences_content}>
               {selectedTopic && (
                 <>
                   <div
@@ -48,9 +48,9 @@ export default function Experiencies() {
                     <h2 className={styles.title}>{selectedTopic.titleDesc}</h2>
                     <p className={styles.date}>{selectedTopic.ano}</p>
                   </div>
-                  <h3 
-                  className="styles.sub_title" 
-                  style={{ fontSize: "16px", fontWeight: "500" }}
+                  <h3
+                    className={styles.sub_title}
+                    style={{ fontSize: "16px", fontWeight: "500" }}
                   >
                     {selectedTopic.sub_title}
                   </h3>

@@ -5,6 +5,7 @@ import gitHubIcon from '../../assets/Icons/github.svg'
 import linkedinIcon from '../../assets/Icons/linkedin.svg'
 import instagramIcon from '../../assets/Icons/instagram.svg'
 import youtubeIcon from '../../assets/Icons/youtube.svg'
+import teste from '../../pdf/testeD.png'
 
 export default function aboutMe() {
   return (
@@ -36,7 +37,7 @@ export default function aboutMe() {
                     <div className={styles.buttons_about}>
                       <button className={styles.curriculum_btn}
                       >
-                        {/* <a href={teste} download='testeDownload'>Baixar currículo</a> */}
+                        <a href={teste} download='testeDownload'>Baixar currículo</a>
                       </button>
                     </div>
                 </div>
