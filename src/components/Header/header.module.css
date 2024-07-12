@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .header_title {
+    font-family: Preahvihear;
+    color: #BF91F9;
+    font-size: 24px;
+  }
+  
+  .header_menu {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .header_menu_list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+  }
+  
+  .header_menu_list li {
+    color: #C4C4C4;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .2s;
+  }
+  
+  .header_menu_list li:hover {
+    color: #e5dfdf;
+    transform: scale(.96);
+    transition: .2s;
+  }
