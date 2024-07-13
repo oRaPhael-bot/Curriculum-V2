@@ -24,7 +24,7 @@ export default function aboutMe() {
                         </p>
                     </div>
                     <div className={styles.about_me_social_links}>
-                        <a href="https://github.com/oRaPhael-bot">
+                        <a href="https://github.com/oRaPhael-bot" target='_blank'>
                         <img src={gitHubIcon} alt="GitHub" /></a>
                         <a href="https://www.linkedin.com/in/raphael-teves-maia-c/">
                         <img src={linkedinIcon} alt="LinkedIn" /></a>

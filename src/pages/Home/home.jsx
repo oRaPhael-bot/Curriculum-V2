@@ -33,7 +33,7 @@ export default function home() {
                 </h3>
                 <div className={styles.buttons}>
                   <button className={styles.home_button_github}>
-                    <a href="https://github.com/oRaPhael-bot">GitHub</a>
+                    <a href="https://github.com/oRaPhael-bot" target="_blank">GitHub</a>
                   </button>
                 </div>
               </div>

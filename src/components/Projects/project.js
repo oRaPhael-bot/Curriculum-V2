@@ -27,11 +27,11 @@ const projects = [
   },
   {
     imagem: imgTest,
-    name: "Painel-Colaborador",
+    name: "Calculadora",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius. ",
-    technologies: "Html",
-    linkProject: 'https://github.com/CarlosEduardoSD/Painel-Colaborador',
-    linkRepository: 'https://github.com/CarlosEduardoSD/Painel-Colaborador'
+    technologies: "HTML - JS",
+    linkProject: 'https://github.com/oRaPhael-bot/calculadora',
+    linkRepository: 'https://github.com/oRaPhael-bot/calculadora'
   }
 ]
 
