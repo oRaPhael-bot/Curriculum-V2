@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <header id="header_section" className="container">
         <div className="row">
-          <div className={styles.header}>
+          <div style={{ display: "flex", margin: "30px 0" }}>
             <div className="col-md-6">
               <h1 className={styles.header_title}>Portfólio</h1>
             </div>

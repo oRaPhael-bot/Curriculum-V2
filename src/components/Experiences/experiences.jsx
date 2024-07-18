@@ -26,8 +26,11 @@ export default function Experiencies() {
                   {topics.map((e) => (
                     <li
                       key={e.id}
-                      className={`${styles.experiences_nav_item} ${
-                        selectedTopic.id === e.id ? styles.active : ""
+                      className={`${styles.experiences_nav_item} 
+                      ${
+                        selectedTopic.id === e.id 
+                        ? styles.active 
+                        : ""
                       }`}
                       onClick={() => setSelectedTopic(e)}
                     >

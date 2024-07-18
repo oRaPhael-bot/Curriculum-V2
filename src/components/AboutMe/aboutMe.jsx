@@ -26,11 +26,11 @@ export default function aboutMe() {
                     <div className={styles.about_me_social_links}>
                         <a href="https://github.com/oRaPhael-bot" target='_blank'>
                         <img src={gitHubIcon} alt="GitHub" /></a>
-                        <a href="https://www.linkedin.com/in/raphael-teves-maia-c/">
+                        <a href="https://www.linkedin.com/in/raphael-teves-maia-c/" target='_blank'>
                         <img src={linkedinIcon} alt="LinkedIn" /></a>
-                        <a href="https://github.com/oRaPhael-bot">
+                        <a href="https://www.instagram.com/o_phael/" target='_blank'>
                         <img src={instagramIcon} alt="Instagram" /></a>
-                        <a href="https://github.com/oRaPhael-bot">
+                        <a href="https://github.com/oRaPhael-bot" target='_blank'>
                         <img src={youtubeIcon} alt="YouTube" />
                         </a>
                     </div>

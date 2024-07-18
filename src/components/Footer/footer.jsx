@@ -9,10 +9,8 @@ export default function Footer() {
             <div className={styles.footer_text}>
               <p>@ 2024 - Raphael Maia</p>
               <div style={{ display: "flex", gap: "10px" }}>
-                <p>
-                  Powered by
-                </p>
-                <p style={{ color: "#BF91F9", fontWeight: "bold"}}>{"{ )"}</p>
+                <p>Powered by</p>
+                <p style={{ color: "#BF91F9", fontWeight: "bold" }}>{"{ )"}</p>
               </div>
             </div>
           </div>

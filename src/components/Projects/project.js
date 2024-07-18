@@ -12,7 +12,7 @@ const projects = [
   {
     imagem: imgTest,
     name: "Desafio-Yellow-Ball",
-    description: "Jogo de uma bola amarela, para treinar o uso de variáveis, condicionais e funçoes. ",
+    description: "Jogo de uma bola amarela, para treinar o uso de variáveis, condicionais e funções. ",
     technologies: "Html - CSS - JavaScript",
     linkProject: 'https://github.com/CarlosEduardoSD/Desafio-Yellow-Ball',
     linkRepository: 'https://github.com/CarlosEduardoSD/Desafio-Yellow-Ball'
@@ -28,8 +28,8 @@ const projects = [
   {
     imagem: imgTest,
     name: "Calculadora",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius. ",
-    technologies: "HTML - JS",
+    description: "Calculadora padrão, feita com HTML, CSS e um pouco de JavaScript. ",
+    technologies: "Html - CSS - JavaScript",
     linkProject: 'https://github.com/oRaPhael-bot/calculadora',
     linkRepository: 'https://github.com/oRaPhael-bot/calculadora'
   }
