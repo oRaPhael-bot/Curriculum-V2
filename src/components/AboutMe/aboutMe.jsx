@@ -5,7 +5,8 @@ import gitHubIcon from '../../assets/Icons/github.svg'
 import linkedinIcon from '../../assets/Icons/linkedin.svg'
 import instagramIcon from '../../assets/Icons/instagram.svg'
 import youtubeIcon from '../../assets/Icons/youtube.svg'
-import teste from '../../pdf/testeD.png'
+// import teste from '../../pdf/testeD.png'
+import curriculo from '../../pdf/Curriculo.jpg'
 
 export default function aboutMe() {
   return (
@@ -15,11 +16,12 @@ export default function aboutMe() {
             <div className="row">
                 <div className="col-md-12" style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: "100px 0"}}>
                     <div className={styles.about_me_text}>
-                        <h2 className={styles.title_section} style={{marginBottom: "40px"}}>Sobre Mim</h2>
+                        <h2 className={styles.title_section} style={{ marginBottom: "40px" }}>Sobre Mim</h2>
                         <p style={{ fontSize: "20px", fontWeight: "500" }}>
                             São Paulo, Brasil
                         </p>
-                        <p className={styles.description} style={{ width: "80%" }}>
+                        <p className={styles.description} style={{ width: "auto" }}> 
+                          {/* 40px */}
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nesciunt cupiditate atque officiis ipsum nostrum facere ad eveniet architecto perferendis impedit a, nemo culpa deleniti. Labore itaque accusamus exercitationem minus!
                         </p>
                     </div>
@@ -37,7 +39,7 @@ export default function aboutMe() {
                     <div className={styles.buttons_about}>
                       <button className={styles.curriculum_btn}
                       >
-                        <a href={teste} download='testeDownload'>Baixar currículo</a>
+                        <a href={curriculo} download='Currículo Raphael'>Baixar currículo</a>
                       </button>
                     </div>
                 </div>

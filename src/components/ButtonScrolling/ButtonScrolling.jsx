@@ -8,7 +8,7 @@ export default function ButtonScrolling() {
   return (
       <button className={styles.home_button_top}>
         <a href="#header_section">
-          <FaArrowUp fontSize={"20px"}/>
+          <FaArrowUp fontSize={"25px"}/>
         </a>
       </button>
   )

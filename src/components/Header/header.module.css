@@ -32,3 +32,20 @@
   transform: scale(0.96);
   transition: 0.2s;
 }
+
+.hambuger_button {
+  display: none;
+}
+
+@media (max-width: 530px) {
+
+  .header_menu {
+    display: none;
+  }
+
+  .hambuger_button {
+    display: block;
+    z-index: 3;
+  }
+
+}

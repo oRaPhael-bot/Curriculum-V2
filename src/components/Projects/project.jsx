@@ -6,8 +6,8 @@ import projects from "./project";
 
 export default function Projects() {
   return (
-    <section id='projects' className={styles.projects}>
-      <div className="container" >
+    <section id="projects" className={styles.projects}>
+      <div className="container">
         <div className="row">
           <div className="col-md-12" style={{ marginTop: "100px" }}>
             <h2 className={styles.title_section}>Projetos</h2>
@@ -15,7 +15,7 @@ export default function Projects() {
         </div>
         <div className="row" style={{ marginTop: "40px" }}>
           <div className="col-md-6">
-            <CardProjects 
+            <CardProjects
               imgProject={projects[0].imagem}
               nameProject={projects[0].name}
               descriptionProject={projects[0].description}
@@ -23,7 +23,7 @@ export default function Projects() {
               linkProject={projects[0].linkProject}
               linkRepository={projects[0].linkRepository}
             />
-            <CardProjects 
+            <CardProjects
               imgProject={projects[1].imagem}
               nameProject={projects[1].name}
               descriptionProject={projects[1].description}
@@ -33,7 +33,7 @@ export default function Projects() {
             />
           </div>
           <div className="col-md-6">
-            <CardProjects 
+            <CardProjects
               imgProject={projects[2].imagem}
               nameProject={projects[2].name}
               descriptionProject={projects[2].description}
@@ -41,7 +41,7 @@ export default function Projects() {
               linkProject={projects[2].linkProject}
               linkRepository={projects[2].linkRepository}
             />
-            <CardProjects 
+            <CardProjects
               imgProject={projects[3].imagem}
               nameProject={projects[3].name}
               descriptionProject={projects[3].description}

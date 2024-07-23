@@ -18,34 +18,32 @@ export default function home() {
       <section id="home" className={styles.home}>
         <div className="container">
           <div className="row">
-            <div
-              className="col-md-6"
-              style={{
-                display: "flex",
-                alignItems: "center",
-              }}
-            >
-              <div>
-                <h2 className={styles.title}>Olá, eu sou</h2>
-                <h1 className={styles.title_name}>Raphael Maia</h1>
-                <h3 className={styles.title_description}>
-                  Desenvolvedor Web Full-Stack.
-                </h3>
-                <div className={styles.buttons}>
-                  <button className={styles.home_button_github}>
-                    <a href="https://github.com/oRaPhael-bot" target="_blank">
-                      GitHub
-                    </a>
-                  </button>
+            <div className={styles.home_section}>
+              <div
+                className="col-md-6"
+                style={{ display: "flex", alignItems: "center" }}>
+                <div className={styles.home_text}>
+                  <h2 className={styles.title}>Olá, eu sou</h2>
+                  <h1 className={styles.title_name}>Raphael Maia</h1>
+                  <h3 className={styles.title_description}>
+                    Desenvolvedor Web Full-Stack.
+                  </h3>
+                  <div className={styles.buttons}>
+                    <button className={styles.home_button_github}>
+                      <a href="https://github.com/oRaPhael-bot" target="_blank">
+                        GitHub
+                      </a>
+                    </button>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="col-md-6"
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <div className={styles.home_img}>
-                <img className="img-fluid" src={Perfil} alt="theme" />
+              <div
+                className="col-md-6"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div className={styles.home_img}>
+                  <img className="img-fluid" src={Perfil} alt="theme" />
+                </div>
               </div>
             </div>
           </div>

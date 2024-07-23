@@ -1,13 +1,22 @@
-/* #projects */
 .projects {
-    background-color: #0e0d0d;
-    margin-top: 30px;
-    height: auto;
-  }
-  
+  background-color: #0e0d0d;
+  margin-top: 30px;
+  height: auto;
+}
+
+.title_section {
+  font-family: Preahvihear;
+  font-size: 32px;
+  font-weight: 400;
+  color: #bf91f9;
+}
+
+@media (max-width: 540px) {
+
   .title_section {
-    font-family: Preahvihear;
-    font-size: 32px;
-    font-weight: 400;
-    color: #BF91F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+}
