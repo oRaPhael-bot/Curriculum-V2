@@ -11,11 +11,11 @@ const projects = [
   },
   {
     imagem: imgTest,
-    name: "Desafio-Yellow-Ball",
-    description: "Jogo de uma bola amarela, para treinar o uso de variáveis, condicionais e funções. ",
-    technologies: "Html - CSS - JavaScript",
-    linkProject: 'https://github.com/CarlosEduardoSD/Desafio-Yellow-Ball',
-    linkRepository: 'https://github.com/CarlosEduardoSD/Desafio-Yellow-Ball'
+    name: "Automação",
+    description: "Uma aplicação em Python que automatiza  abatida de pontos em uma determinada página web. ",
+    technologies: "Python",
+    linkProject: 'https://github.com/oRaPhael-bot/automacao_ponto',
+    linkRepository: 'https://github.com/oRaPhael-bot/automacao_ponto'
   },
   {
     imagem: imgTest,

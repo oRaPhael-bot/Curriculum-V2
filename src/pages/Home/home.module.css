@@ -129,14 +129,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
   }
 
   .home_button_github {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
 
   .home_img {

@@ -72,6 +72,10 @@
   color: #0b0b0b;
 }
 
+/* @media (max-width: 768px) {
+
+} */
+
 @media (max-width: 540px) {
 
   .title {

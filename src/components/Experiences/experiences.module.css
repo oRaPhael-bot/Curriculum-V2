@@ -56,18 +56,18 @@
   border-left: 2px solid #bf91f9;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   
   .experiences {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
   }
 
   .title_section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
   }
 
   .experiences_nav_list {
@@ -81,4 +81,4 @@
     justify-content: center;
     align-items: center;
   }
-}
+} */

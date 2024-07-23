@@ -7,7 +7,7 @@ export default function Header() {
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
-  };
+  }
   return (
     <>
       <header id="header_section" className="container">
