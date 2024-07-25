@@ -18,7 +18,7 @@ export default function Header() {
             </div>
             <div className="col-md-6">
               <div className={styles.header_menu}>
-                <button className={styles.hambuger_button} onClick={toggleMenu}>
+                <button className={styles.hambuger_button} onClick={toggleMenu} >
                   ☰
                 </button>
                 <ul

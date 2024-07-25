@@ -80,6 +80,7 @@
 .header_menu {
   display: flex;
   justify-content: end;
+  margin-left: auto;
 }
 
 .header_menu_list {
@@ -113,20 +114,24 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .hambuger_button {
     display: block;
+    position: absolute;
     z-index: 3;
-  }
-
-  .header_menu {
-    z-index: 3;
+    margin-left: auto;
+    right: 1px;
+    top: 1px;
   }
 
   .header_menu_list {
     display: none;
-    transition: 0.2s;
+    transition: 0.5s;
+  }
+
+  .header_menu {
+    z-index: 3;
   }
 
   .header_menu_list.active {
@@ -151,42 +156,16 @@
   .header {
     justify-content: space-between;
   }
-
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
 
-    .hambuger_button {
-      display: block;
-      z-index: 3;
-      transition: 0.2s;
-    }
+  .header_menu_list {
+    justify-content: flex-end;
+    right: 10px;
+  }
 
-    .header_menu {
-      z-index: 3;
-    }
-
-    .header_menu_list {
-      display: none;
-      transition: 0.2s;
-    }
-  
-    .header_menu_list.active {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-      gap: 0;
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      top: 35px;
-      background-color: #bf91f9;
-      width: 200px;
-      height: 300px;
-      z-index: 2;
-      border-radius: 15px;
-      text-transform: uppercase;
-      transition: 0.2s;
-    }
+  .header_title {
+    padding: 0 20px;
+  }
 }
